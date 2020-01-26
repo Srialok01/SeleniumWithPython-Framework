@@ -1,28 +1,42 @@
 import time
 
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
+from Util.SeleniumDriver import SeleniumDriver
+import logging
+from Logger import custom_logger as cl
 
-from Util import Utils
 
+class LoginPage(SeleniumDriver):
+    log = cl.customLogger(logging.DEBUG)
 
-class LoginPage():
     def __init__(self, driver):
+        super().__init__(driver)
         self.driver = driver
 
-    Email = (By.ID, "Email")
-    Password = (By.ID, "Password")
-    LoginButton = (By.XPATH, "//input[@class ='button-1 login-button']")
-    CheckOutAsGuest_BTN = (By.XPATH, "//input[@class ='button-1 checkout-as-guest-button']")
+    # Locators
+    _email_id = "Email"
+    _password_id = "Password"
+    _loginBtn_xpath = "//input[@class ='button-1 login-button']"
+    _checkoutasguest_BTN_xpath = "//input[@class ='button-1 checkout-as-guest-button']"
 
-    def Login(self):
+    def enterEmail(self, email):
+        self.sendKeys(email, self._email_id, locatorType='id')
+
+    def enterPasswordField(self, password):
+        self.sendKeys(password, self._password_id, locatorType='id')
+        # self.getPasswordField().send_keys(password)
+
+    def clickOnLoginBtn(self):
+        self.elementClick(self._loginBtn_xpath, locatorType='xpath')
+
+    def clickOnGuestBtn(self):
+        self.elementClick(self._checkoutasguest_BTN_xpath, locatorType='xpath')
         time.sleep(3)
-        email = WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*LoginPage.Email))
-        ScrollToEmail = email.location_once_scrolled_into_view
-        email.send_keys(Utils.Email)
 
-        self.driver.find_element(*LoginPage.Password).send_keys(Utils.Password)
-        self.driver.find_element(*LoginPage.LoginButton).click()
+    def Login(self, email, password):
+        self.waitForElement(locator=self._email_id, locatorType='id')
+        self.enterEmail(email)
+        self.enterPasswordField(password)
+        self.clickOnLoginBtn()
 
     def Checkout_as_Guest(self):
-        self.driver.find_element(*LoginPage.CheckOutAsGuest_BTN).click()
+        self.clickOnGuestBtn()

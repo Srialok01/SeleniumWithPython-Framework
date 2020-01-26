@@ -1,0 +1,195 @@
+01/26/2020 08:34:42 PM - HomePage - INFO: Element Found by locator //ul[@class='top-menu notmobile']//a[contains(text(),'Electronics ')]
+01/26/2020 08:34:42 PM - HomePage - INFO: successfully performed hover with locator: //ul[@class='top-menu notmobile']//a[contains(text(),'Electronics ')] locatorType: xpath
+01/26/2020 08:34:42 PM - HomePage - INFO: Element Found by locator //ul[@class='top-menu notmobile']//a[contains(text(),'Cell phones')]
+01/26/2020 08:34:45 PM - HomePage - INFO: Clicked on element with locator: //ul[@class='top-menu notmobile']//a[contains(text(),'Cell phones')] locatorType: xpath
+01/26/2020 08:34:46 PM - CellPhonePage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:34:58 PM - CellPhonePage - INFO: Element not appeared on the web page
+01/26/2020 08:34:58 PM - CellPhonePage - INFO: Element Found by locator Nokia Lumia 1020
+01/26/2020 08:35:02 PM - CellPhonePage - INFO: Clicked on element with locator: Nokia Lumia 1020 locatorType: link
+01/26/2020 08:35:02 PM - CellPhonePage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:35:14 PM - CellPhonePage - INFO: Element not appeared on the web page
+01/26/2020 08:35:14 PM - CellPhonePage - INFO: Element Found by locator //input[@type='button'][@id='add-to-cart-button-20']
+01/26/2020 08:35:14 PM - CellPhonePage - INFO: Clicked on element with locator: //input[@type='button'][@id='add-to-cart-button-20'] locatorType: xpath
+01/26/2020 08:35:14 PM - CellPhonePage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:35:26 PM - CellPhonePage - INFO: Element not appeared on the web page
+01/26/2020 08:35:29 PM - CellPhonePage - INFO: Element not found
+01/26/2020 08:35:29 PM - CellPhonePage - INFO: Cannot click on the element with locator: //div[@id='bar-notification']//span locatorType: xpath
+01/26/2020 08:35:31 PM - CellPhonePage - INFO: Element Found by locator //div[@class='header-links']//descendant::span[@class ='cart-label']
+01/26/2020 08:35:32 PM - CellPhonePage - INFO: successfully performed hover with locator: //div[@class='header-links']//descendant::span[@class ='cart-label'] locatorType: xpath
+01/26/2020 08:35:32 PM - CellPhonePage - INFO: Element Found by locator //div[@class='buttons']/input[@value='Go to cart']
+01/26/2020 08:35:33 PM - CellPhonePage - INFO: Clicked on element with locator: //div[@class='buttons']/input[@value='Go to cart'] locatorType: xpath
+01/26/2020 08:35:34 PM - CartPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:35:46 PM - CartPage - INFO: Element not appeared on the web page
+01/26/2020 08:35:46 PM - CartPage - INFO: Element Found by locator termsofservice
+01/26/2020 08:35:46 PM - CartPage - INFO: Clicked on element with locator: termsofservice locatorType: id
+01/26/2020 08:35:46 PM - CartPage - INFO: Element Found by locator checkout
+01/26/2020 08:35:47 PM - CartPage - INFO: Clicked on element with locator: checkout locatorType: id
+01/26/2020 08:35:48 PM - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:36:00 PM - LoginPage - INFO: Element not appeared on the web page
+01/26/2020 08:36:00 PM - LoginPage - INFO: Element Found by locator Email
+01/26/2020 08:36:00 PM - LoginPage - INFO: Sent data on element with locator: Email locatorType: id
+01/26/2020 08:36:00 PM - LoginPage - INFO: Element Found by locator Password
+01/26/2020 08:36:01 PM - LoginPage - INFO: Sent data on element with locator: Password locatorType: id
+01/26/2020 08:36:01 PM - LoginPage - INFO: Element Found by locator //input[@class ='button-1 login-button']
+01/26/2020 08:36:02 PM - LoginPage - INFO: Clicked on element with locator: //input[@class ='button-1 login-button'] locatorType: xpath
+01/26/2020 08:36:03 PM - CheckOut - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:36:15 PM - CheckOut - INFO: Element not appeared on the web page
+01/26/2020 08:36:15 PM - CheckOut - INFO: Element Found by locator termsofservice
+01/26/2020 08:36:15 PM - CheckOut - INFO: Clicked on element with locator: termsofservice locatorType: id
+01/26/2020 08:36:15 PM - CheckOut - INFO: Element Found by locator checkout
+01/26/2020 08:36:17 PM - CheckOut - INFO: Clicked on element with locator: checkout locatorType: id
+01/26/2020 08:36:19 PM - Address - INFO: Element Found by locator //div[@id='billing-buttons-container']//input
+01/26/2020 08:36:19 PM - Address - INFO: Clicked on element with locator: //div[@id='billing-buttons-container']//input locatorType: xpath
+01/26/2020 08:36:19 PM - Address - INFO: Element Found by locator //input[@class='button-1 shipping-method-next-step-button']
+01/26/2020 08:36:19 PM - Address - INFO: Clicked on element with locator: //input[@class='button-1 shipping-method-next-step-button'] locatorType: xpath
+01/26/2020 08:36:20 PM - Payment - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:36:32 PM - Payment - INFO: Element not appeared on the web page
+01/26/2020 08:36:32 PM - Payment - INFO: Element Found by locator paymentmethod_1
+01/26/2020 08:36:32 PM - Payment - INFO: Clicked on element with locator: paymentmethod_1 locatorType: id
+01/26/2020 08:36:32 PM - Payment - INFO: Element Found by locator //input[@type='button'][@class='button-1 payment-method-next-step-button']
+01/26/2020 08:36:32 PM - Payment - INFO: Clicked on element with locator: //input[@type='button'][@class='button-1 payment-method-next-step-button'] locatorType: xpath
+01/26/2020 08:36:33 PM - Payment - INFO: Element Found by locator CardholderName
+01/26/2020 08:36:33 PM - Payment - INFO: Sent data on element with locator: CardholderName locatorType: id
+01/26/2020 08:36:33 PM - Payment - INFO: Element Found by locator //input[@id='CardNumber']
+01/26/2020 08:36:33 PM - Payment - INFO: Sent data on element with locator: //input[@id='CardNumber'] locatorType: xpath
+01/26/2020 08:36:34 PM - Payment - INFO: Element Found by locator //input[@id='CardCode']
+01/26/2020 08:36:34 PM - Payment - INFO: Sent data on element with locator: //input[@id='CardCode'] locatorType: xpath
+01/26/2020 08:36:34 PM - Payment - INFO: Element Found by locator //input[@class='button-1 payment-info-next-step-button']
+01/26/2020 08:36:34 PM - Payment - INFO: Clicked on element with locator: //input[@class='button-1 payment-info-next-step-button'] locatorType: xpath
+01/26/2020 08:36:34 PM - OrderConfirmation - INFO: Element Found by locator //input[@class='button-1 confirm-order-next-step-button']
+01/26/2020 08:36:35 PM - OrderConfirmation - INFO: Clicked on element with locator: //input[@class='button-1 confirm-order-next-step-button'] locatorType: xpath
+01/26/2020 08:36:36 PM - OrderConfirmation - INFO: Element Found by locator //div[@class='order-number']/strong
+01/26/2020 08:36:53 PM - HomePage - INFO: Element Found by locator //ul[@class='top-menu notmobile']//a[contains(text(),'Electronics ')]
+01/26/2020 08:36:53 PM - HomePage - INFO: successfully performed hover with locator: //ul[@class='top-menu notmobile']//a[contains(text(),'Electronics ')] locatorType: xpath
+01/26/2020 08:36:53 PM - HomePage - INFO: Element Found by locator //ul[@class='top-menu notmobile']//a[contains(text(),'Cell phones')]
+01/26/2020 08:36:55 PM - HomePage - INFO: Clicked on element with locator: //ul[@class='top-menu notmobile']//a[contains(text(),'Cell phones')] locatorType: xpath
+01/26/2020 08:36:56 PM - CellPhonePage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:37:08 PM - CellPhonePage - INFO: Element not appeared on the web page
+01/26/2020 08:37:08 PM - CellPhonePage - INFO: Element Found by locator Nokia Lumia 1020
+01/26/2020 08:37:11 PM - CellPhonePage - INFO: Clicked on element with locator: Nokia Lumia 1020 locatorType: link
+01/26/2020 08:37:11 PM - CellPhonePage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:37:23 PM - CellPhonePage - INFO: Element not appeared on the web page
+01/26/2020 08:37:23 PM - CellPhonePage - INFO: Element Found by locator //input[@type='button'][@id='add-to-cart-button-20']
+01/26/2020 08:37:23 PM - CellPhonePage - INFO: Clicked on element with locator: //input[@type='button'][@id='add-to-cart-button-20'] locatorType: xpath
+01/26/2020 08:37:23 PM - CellPhonePage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:37:36 PM - CellPhonePage - INFO: Element not appeared on the web page
+01/26/2020 08:37:39 PM - CellPhonePage - INFO: Element not found
+01/26/2020 08:37:39 PM - CellPhonePage - INFO: Cannot click on the element with locator: //div[@id='bar-notification']//span locatorType: xpath
+01/26/2020 08:37:41 PM - CellPhonePage - INFO: Element Found by locator //div[@class='header-links']//descendant::span[@class ='cart-label']
+01/26/2020 08:37:41 PM - CellPhonePage - INFO: successfully performed hover with locator: //div[@class='header-links']//descendant::span[@class ='cart-label'] locatorType: xpath
+01/26/2020 08:37:41 PM - CellPhonePage - INFO: Element Found by locator //div[@class='buttons']/input[@value='Go to cart']
+01/26/2020 08:37:43 PM - CellPhonePage - INFO: Clicked on element with locator: //div[@class='buttons']/input[@value='Go to cart'] locatorType: xpath
+01/26/2020 08:37:44 PM - CartPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:37:56 PM - CartPage - INFO: Element not appeared on the web page
+01/26/2020 08:37:56 PM - CartPage - INFO: Element Found by locator termsofservice
+01/26/2020 08:37:56 PM - CartPage - INFO: Clicked on element with locator: termsofservice locatorType: id
+01/26/2020 08:37:56 PM - CartPage - INFO: Element Found by locator checkout
+01/26/2020 08:37:58 PM - CartPage - INFO: Clicked on element with locator: checkout locatorType: id
+01/26/2020 08:37:59 PM - LoginPage - INFO: Element Found by locator //input[@class ='button-1 checkout-as-guest-button']
+01/26/2020 08:38:00 PM - LoginPage - INFO: Clicked on element with locator: //input[@class ='button-1 checkout-as-guest-button'] locatorType: xpath
+01/26/2020 08:38:06 PM - Address - INFO: Element Found by locator BillingNewAddress_FirstName
+01/26/2020 08:38:06 PM - Address - INFO: Sent data on element with locator: BillingNewAddress_FirstName locatorType: id
+01/26/2020 08:38:06 PM - Address - INFO: Element Found by locator BillingNewAddress_LastName
+01/26/2020 08:38:06 PM - Address - INFO: Sent data on element with locator: BillingNewAddress_LastName locatorType: id
+01/26/2020 08:38:06 PM - Address - INFO: Element Found by locator BillingNewAddress_Email
+01/26/2020 08:38:07 PM - Address - INFO: Sent data on element with locator: BillingNewAddress_Email locatorType: id
+01/26/2020 08:38:07 PM - Address - INFO: Element Found by locator BillingNewAddress_City
+01/26/2020 08:38:07 PM - Address - INFO: Sent data on element with locator: BillingNewAddress_City locatorType: id
+01/26/2020 08:38:07 PM - Address - INFO: Element Found by locator BillingNewAddress_Address1
+01/26/2020 08:38:07 PM - Address - INFO: Sent data on element with locator: BillingNewAddress_Address1 locatorType: id
+01/26/2020 08:38:07 PM - Address - INFO: Element Found by locator BillingNewAddress_ZipPostalCode
+01/26/2020 08:38:07 PM - Address - INFO: Sent data on element with locator: BillingNewAddress_ZipPostalCode locatorType: id
+01/26/2020 08:38:07 PM - Address - INFO: Element Found by locator BillingNewAddress_PhoneNumber
+01/26/2020 08:38:07 PM - Address - INFO: Sent data on element with locator: BillingNewAddress_PhoneNumber locatorType: id
+01/26/2020 08:38:07 PM - Address - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:38:20 PM - Address - INFO: Element not appeared on the web page
+01/26/2020 08:38:20 PM - Address - INFO: Element Found by locator //div[@id='billing-buttons-container']//input
+01/26/2020 08:38:20 PM - Address - INFO: Clicked on element with locator: //div[@id='billing-buttons-container']//input locatorType: xpath
+01/26/2020 08:38:20 PM - Address - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:38:32 PM - Address - INFO: Element not appeared on the web page
+01/26/2020 08:38:32 PM - Address - INFO: Element Found by locator //input[@class='button-1 shipping-method-next-step-button']
+01/26/2020 08:38:32 PM - Address - INFO: Clicked on element with locator: //input[@class='button-1 shipping-method-next-step-button'] locatorType: xpath
+01/26/2020 08:38:33 PM - Payment - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:38:45 PM - Payment - INFO: Element not appeared on the web page
+01/26/2020 08:38:45 PM - Payment - INFO: Element Found by locator paymentmethod_1
+01/26/2020 08:38:45 PM - Payment - INFO: Clicked on element with locator: paymentmethod_1 locatorType: id
+01/26/2020 08:38:45 PM - Payment - INFO: Element Found by locator //input[@type='button'][@class='button-1 payment-method-next-step-button']
+01/26/2020 08:38:45 PM - Payment - INFO: Clicked on element with locator: //input[@type='button'][@class='button-1 payment-method-next-step-button'] locatorType: xpath
+01/26/2020 08:38:45 PM - Payment - INFO: Element Found by locator CardholderName
+01/26/2020 08:38:46 PM - Payment - INFO: Sent data on element with locator: CardholderName locatorType: id
+01/26/2020 08:38:46 PM - Payment - INFO: Element Found by locator //input[@id='CardNumber']
+01/26/2020 08:38:46 PM - Payment - INFO: Sent data on element with locator: //input[@id='CardNumber'] locatorType: xpath
+01/26/2020 08:38:46 PM - Payment - INFO: Element Found by locator //input[@id='CardCode']
+01/26/2020 08:38:46 PM - Payment - INFO: Sent data on element with locator: //input[@id='CardCode'] locatorType: xpath
+01/26/2020 08:38:46 PM - Payment - INFO: Element Found by locator //input[@class='button-1 payment-info-next-step-button']
+01/26/2020 08:38:46 PM - Payment - INFO: Clicked on element with locator: //input[@class='button-1 payment-info-next-step-button'] locatorType: xpath
+01/26/2020 08:38:47 PM - OrderConfirmation - INFO: Element Found by locator //input[@class='button-1 confirm-order-next-step-button']
+01/26/2020 08:38:48 PM - OrderConfirmation - INFO: Clicked on element with locator: //input[@class='button-1 confirm-order-next-step-button'] locatorType: xpath
+01/26/2020 08:38:49 PM - OrderConfirmation - INFO: Element Found by locator //div[@class='order-number']/strong
+01/26/2020 08:39:07 PM - HomePage - INFO: Element Found by locator //ul[@class='top-menu notmobile']//a[contains(text(),'Electronics ')]
+01/26/2020 08:39:08 PM - HomePage - INFO: successfully performed hover with locator: //ul[@class='top-menu notmobile']//a[contains(text(),'Electronics ')] locatorType: xpath
+01/26/2020 08:39:08 PM - HomePage - INFO: Element Found by locator //ul[@class='top-menu notmobile']//a[contains(text(),'Others')]
+01/26/2020 08:39:10 PM - HomePage - INFO: Clicked on element with locator: //ul[@class='top-menu notmobile']//a[contains(text(),'Others')] locatorType: xpath
+01/26/2020 08:39:10 PM - OtherItems - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:39:23 PM - OtherItems - INFO: Element not appeared on the web page
+01/26/2020 08:39:23 PM - OtherItems - INFO: Element Found by locator Portable Sound Speakers
+01/26/2020 08:39:25 PM - OtherItems - INFO: Clicked on element with locator: Portable Sound Speakers locatorType: link
+01/26/2020 08:39:25 PM - OtherItems - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:39:37 PM - OtherItems - INFO: Element not appeared on the web page
+01/26/2020 08:39:37 PM - OtherItems - INFO: Element Found by locator //input[@id='add-to-cart-button-23']
+01/26/2020 08:39:37 PM - OtherItems - INFO: Clicked on element with locator: //input[@id='add-to-cart-button-23'] locatorType: xpath
+01/26/2020 08:39:37 PM - OtherItems - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:39:49 PM - OtherItems - INFO: Element not appeared on the web page
+01/26/2020 08:39:52 PM - OtherItems - INFO: Element not found
+01/26/2020 08:39:52 PM - OtherItems - INFO: Cannot click on the element with locator: //div[@id='bar-notification']//span locatorType: xpath
+01/26/2020 08:39:52 PM - OtherItems - INFO: Element Found by locator //div[@class='header-links']//descendant::span[@class ='cart-label']
+01/26/2020 08:39:53 PM - OtherItems - INFO: successfully performed hover with locator: //div[@class='header-links']//descendant::span[@class ='cart-label'] locatorType: xpath
+01/26/2020 08:39:53 PM - OtherItems - INFO: Element Found by locator //div[@class='buttons']/input[@value='Go to cart']
+01/26/2020 08:39:55 PM - OtherItems - INFO: Clicked on element with locator: //div[@class='buttons']/input[@value='Go to cart'] locatorType: xpath
+01/26/2020 08:39:56 PM - CartPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:40:08 PM - CartPage - INFO: Element not appeared on the web page
+01/26/2020 08:40:08 PM - CartPage - INFO: Element Found by locator termsofservice
+01/26/2020 08:40:08 PM - CartPage - INFO: Clicked on element with locator: termsofservice locatorType: id
+01/26/2020 08:40:08 PM - CartPage - INFO: Element Found by locator checkout
+01/26/2020 08:40:10 PM - CartPage - INFO: Clicked on element with locator: checkout locatorType: id
+01/26/2020 08:40:11 PM - LoginPage - INFO: Element Found by locator //input[@class ='button-1 checkout-as-guest-button']
+01/26/2020 08:40:13 PM - LoginPage - INFO: Clicked on element with locator: //input[@class ='button-1 checkout-as-guest-button'] locatorType: xpath
+01/26/2020 08:40:18 PM - Address - INFO: Element Found by locator BillingNewAddress_FirstName
+01/26/2020 08:40:18 PM - Address - INFO: Sent data on element with locator: BillingNewAddress_FirstName locatorType: id
+01/26/2020 08:40:18 PM - Address - INFO: Element Found by locator BillingNewAddress_LastName
+01/26/2020 08:40:19 PM - Address - INFO: Sent data on element with locator: BillingNewAddress_LastName locatorType: id
+01/26/2020 08:40:19 PM - Address - INFO: Element Found by locator BillingNewAddress_Email
+01/26/2020 08:40:19 PM - Address - INFO: Sent data on element with locator: BillingNewAddress_Email locatorType: id
+01/26/2020 08:40:19 PM - Address - INFO: Element Found by locator BillingNewAddress_City
+01/26/2020 08:40:19 PM - Address - INFO: Sent data on element with locator: BillingNewAddress_City locatorType: id
+01/26/2020 08:40:19 PM - Address - INFO: Element Found by locator BillingNewAddress_Address1
+01/26/2020 08:40:19 PM - Address - INFO: Sent data on element with locator: BillingNewAddress_Address1 locatorType: id
+01/26/2020 08:40:19 PM - Address - INFO: Element Found by locator BillingNewAddress_ZipPostalCode
+01/26/2020 08:40:20 PM - Address - INFO: Sent data on element with locator: BillingNewAddress_ZipPostalCode locatorType: id
+01/26/2020 08:40:20 PM - Address - INFO: Element Found by locator BillingNewAddress_PhoneNumber
+01/26/2020 08:40:20 PM - Address - INFO: Sent data on element with locator: BillingNewAddress_PhoneNumber locatorType: id
+01/26/2020 08:40:20 PM - Address - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:40:32 PM - Address - INFO: Element not appeared on the web page
+01/26/2020 08:40:32 PM - Address - INFO: Element Found by locator //div[@id='billing-buttons-container']//input
+01/26/2020 08:40:32 PM - Address - INFO: Clicked on element with locator: //div[@id='billing-buttons-container']//input locatorType: xpath
+01/26/2020 08:40:32 PM - Address - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:40:44 PM - Address - INFO: Element not appeared on the web page
+01/26/2020 08:40:44 PM - Address - INFO: Element Found by locator //input[@class='button-1 shipping-method-next-step-button']
+01/26/2020 08:40:44 PM - Address - INFO: Clicked on element with locator: //input[@class='button-1 shipping-method-next-step-button'] locatorType: xpath
+01/26/2020 08:40:45 PM - Payment - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/26/2020 08:40:57 PM - Payment - INFO: Element not appeared on the web page
+01/26/2020 08:40:57 PM - Payment - INFO: Element Found by locator paymentmethod_1
+01/26/2020 08:40:57 PM - Payment - INFO: Clicked on element with locator: paymentmethod_1 locatorType: id
+01/26/2020 08:40:57 PM - Payment - INFO: Element Found by locator //input[@type='button'][@class='button-1 payment-method-next-step-button']
+01/26/2020 08:40:57 PM - Payment - INFO: Clicked on element with locator: //input[@type='button'][@class='button-1 payment-method-next-step-button'] locatorType: xpath
+01/26/2020 08:40:58 PM - Payment - INFO: Element Found by locator CardholderName
+01/26/2020 08:40:58 PM - Payment - INFO: Sent data on element with locator: CardholderName locatorType: id
+01/26/2020 08:40:58 PM - Payment - INFO: Element Found by locator //input[@id='CardNumber']
+01/26/2020 08:40:58 PM - Payment - INFO: Sent data on element with locator: //input[@id='CardNumber'] locatorType: xpath
+01/26/2020 08:40:58 PM - Payment - INFO: Element Found by locator //input[@id='CardCode']
+01/26/2020 08:40:58 PM - Payment - INFO: Sent data on element with locator: //input[@id='CardCode'] locatorType: xpath
+01/26/2020 08:40:58 PM - Payment - INFO: Element Found by locator //input[@class='button-1 payment-info-next-step-button']
+01/26/2020 08:40:59 PM - Payment - INFO: Clicked on element with locator: //input[@class='button-1 payment-info-next-step-button'] locatorType: xpath
+01/26/2020 08:40:59 PM - OrderConfirmation - INFO: Element Found by locator //input[@class='button-1 confirm-order-next-step-button']
+01/26/2020 08:41:00 PM - OrderConfirmation - INFO: Clicked on element with locator: //input[@class='button-1 confirm-order-next-step-button'] locatorType: xpath
+01/26/2020 08:41:01 PM - OrderConfirmation - INFO: Element Found by locator //div[@class='order-number']/strong

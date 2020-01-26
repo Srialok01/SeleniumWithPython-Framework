@@ -1,0 +1,2 @@
+[32mINFO    [0m LoginPage:SeleniumDriver.py:43 Element Found by locator //input[@class ='button-1 checkout-as-guest-button']
+[32mINFO    [0m LoginPage:SeleniumDriver.py:52 Clicked on element with locator: //input[@class ='button-1 checkout-as-guest-button'] locatorType: xpath

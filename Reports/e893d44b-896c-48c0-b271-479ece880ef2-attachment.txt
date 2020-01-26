@@ -1,0 +1,22 @@
+[32mINFO    [0m Address:SeleniumDriver.py:43 Element Found by locator BillingNewAddress_FirstName
+[32mINFO    [0m Address:SeleniumDriver.py:72 Sent data on element with locator: BillingNewAddress_FirstName locatorType: id
+[32mINFO    [0m Address:SeleniumDriver.py:43 Element Found by locator BillingNewAddress_LastName
+[32mINFO    [0m Address:SeleniumDriver.py:72 Sent data on element with locator: BillingNewAddress_LastName locatorType: id
+[32mINFO    [0m Address:SeleniumDriver.py:43 Element Found by locator BillingNewAddress_Email
+[32mINFO    [0m Address:SeleniumDriver.py:72 Sent data on element with locator: BillingNewAddress_Email locatorType: id
+[32mINFO    [0m Address:SeleniumDriver.py:43 Element Found by locator BillingNewAddress_City
+[32mINFO    [0m Address:SeleniumDriver.py:72 Sent data on element with locator: BillingNewAddress_City locatorType: id
+[32mINFO    [0m Address:SeleniumDriver.py:43 Element Found by locator BillingNewAddress_Address1
+[32mINFO    [0m Address:SeleniumDriver.py:72 Sent data on element with locator: BillingNewAddress_Address1 locatorType: id
+[32mINFO    [0m Address:SeleniumDriver.py:43 Element Found by locator BillingNewAddress_ZipPostalCode
+[32mINFO    [0m Address:SeleniumDriver.py:72 Sent data on element with locator: BillingNewAddress_ZipPostalCode locatorType: id
+[32mINFO    [0m Address:SeleniumDriver.py:43 Element Found by locator BillingNewAddress_PhoneNumber
+[32mINFO    [0m Address:SeleniumDriver.py:72 Sent data on element with locator: BillingNewAddress_PhoneNumber locatorType: id
+[32mINFO    [0m Address:SeleniumDriver.py:109 Waiting for maximum :: 10 :: seconds for element to be clickable
+[32mINFO    [0m Address:SeleniumDriver.py:118 Element not appeared on the web page
+[32mINFO    [0m Address:SeleniumDriver.py:43 Element Found by locator //div[@id='billing-buttons-container']//input
+[32mINFO    [0m Address:SeleniumDriver.py:52 Clicked on element with locator: //div[@id='billing-buttons-container']//input locatorType: xpath
+[32mINFO    [0m Address:SeleniumDriver.py:109 Waiting for maximum :: 10 :: seconds for element to be clickable
+[32mINFO    [0m Address:SeleniumDriver.py:118 Element not appeared on the web page
+[32mINFO    [0m Address:SeleniumDriver.py:43 Element Found by locator //input[@class='button-1 shipping-method-next-step-button']
+[32mINFO    [0m Address:SeleniumDriver.py:52 Clicked on element with locator: //input[@class='button-1 shipping-method-next-step-button'] locatorType: xpath

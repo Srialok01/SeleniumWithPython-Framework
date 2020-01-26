@@ -1,29 +1,32 @@
-from selenium.webdriver.common.action_chains import ActionChains
-import time
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
+import logging
+from Logger import custom_logger as cl
+from Util.SeleniumDriver import SeleniumDriver
 
 
-class HomePage():
+class HomePage(SeleniumDriver):
+    log = cl.customLogger(logging.DEBUG)
 
     def __init__(self, driver):
+        super().__init__(driver)
         self.driver = driver
 
-    Electronics = (By.XPATH, "//ul[@class='top-menu notmobile']//a[contains(text(),'Electronics ')]")
-    Cellphone = (By.XPATH, "//ul[@class='top-menu notmobile']//a[contains(text(),'Cell phones')]")
-    Others = (By.XPATH, "//ul[@class='top-menu notmobile']//a[contains(text(),'Others')]")
+    _electronics_xpath = "//ul[@class='top-menu notmobile']//a[contains(text(),'Electronics ')]"
+    _cellphone_xpath = "//ul[@class='top-menu notmobile']//a[contains(text(),'Cell phones')]"
+    _others_xpath = "//ul[@class='top-menu notmobile']//a[contains(text(),'Others')]"
 
-    def Hover(self):
-        hoverElement = WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*HomePage.Electronics))
-        hover = ActionChains(self.driver)
-        hover.move_to_element(hoverElement).perform()
 
     def NavigateToCellPhone(self):
-        self.Hover()
-        WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*HomePage.Cellphone)).click()
-        time.sleep(2)
+        self.hoverOnElement(self._electronics_xpath, locatorType='xpath')
+        self.elementClick(self._cellphone_xpath, locatorType='xpath')
 
     def NavigateToOthers(self):
-        self.Hover()
-        WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*HomePage.Others)).click()
-        time.sleep(2)
+        self.hoverOnElement(self._electronics_xpath, locatorType='xpath')
+        self.elementClick(self._others_xpath, locatorType='xpath')
+
+    def verifyHomePageLoad(self):
+        if 'nopCommerce demo store' in self.getTitle():
+            return True
+        else:
+            return False
+
+

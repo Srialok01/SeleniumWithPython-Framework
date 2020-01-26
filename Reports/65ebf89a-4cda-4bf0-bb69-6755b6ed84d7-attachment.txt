@@ -1,0 +1,16 @@
+[32mINFO    [0m CellPhonePage:SeleniumDriver.py:109 Waiting for maximum :: 10 :: seconds for element to be clickable
+[32mINFO    [0m CellPhonePage:SeleniumDriver.py:118 Element not appeared on the web page
+[32mINFO    [0m CellPhonePage:SeleniumDriver.py:43 Element Found by locator Nokia Lumia 1020
+[32mINFO    [0m CellPhonePage:SeleniumDriver.py:52 Clicked on element with locator: Nokia Lumia 1020 locatorType: link
+[32mINFO    [0m CellPhonePage:SeleniumDriver.py:109 Waiting for maximum :: 10 :: seconds for element to be clickable
+[32mINFO    [0m CellPhonePage:SeleniumDriver.py:118 Element not appeared on the web page
+[32mINFO    [0m CellPhonePage:SeleniumDriver.py:43 Element Found by locator //input[@type='button'][@id='add-to-cart-button-20']
+[32mINFO    [0m CellPhonePage:SeleniumDriver.py:52 Clicked on element with locator: //input[@type='button'][@id='add-to-cart-button-20'] locatorType: xpath
+[32mINFO    [0m CellPhonePage:SeleniumDriver.py:109 Waiting for maximum :: 10 :: seconds for element to be clickable
+[32mINFO    [0m CellPhonePage:SeleniumDriver.py:118 Element not appeared on the web page
+[32mINFO    [0m CellPhonePage:SeleniumDriver.py:45 Element not found
+[32mINFO    [0m CellPhonePage:SeleniumDriver.py:54 Cannot click on the element with locator: //div[@id='bar-notification']//span locatorType: xpath
+[32mINFO    [0m CellPhonePage:SeleniumDriver.py:43 Element Found by locator //div[@class='header-links']//descendant::span[@class ='cart-label']
+[32mINFO    [0m CellPhonePage:SeleniumDriver.py:62 successfully performed hover with locator: //div[@class='header-links']//descendant::span[@class ='cart-label'] locatorType: xpath
+[32mINFO    [0m CellPhonePage:SeleniumDriver.py:43 Element Found by locator //div[@class='buttons']/input[@value='Go to cart']
+[32mINFO    [0m CellPhonePage:SeleniumDriver.py:52 Clicked on element with locator: //div[@class='buttons']/input[@value='Go to cart'] locatorType: xpath

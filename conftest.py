@@ -7,7 +7,7 @@ def pytest_addoption(parser):
 
 @pytest.fixture(scope="class")
 def test_setup(request):
-    global driver
+
     from selenium import webdriver
     browser = request.config.getoption("--browser")
     if browser == 'chrome':
@@ -31,3 +31,7 @@ def pytest_report_header(config):
     if config.getoption("verbose") > 0:
         return ["###############################################################"
                 " RUNNING TESTS IN VERBOSE MODE#################################################"]
+
+
+
+

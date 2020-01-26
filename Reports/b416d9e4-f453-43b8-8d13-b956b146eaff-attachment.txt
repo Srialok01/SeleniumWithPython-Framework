@@ -1,0 +1,8 @@
+[32mINFO    [0m LoginPage:SeleniumDriver.py:109 Waiting for maximum :: 10 :: seconds for element to be clickable
+[32mINFO    [0m LoginPage:SeleniumDriver.py:118 Element not appeared on the web page
+[32mINFO    [0m LoginPage:SeleniumDriver.py:43 Element Found by locator Email
+[32mINFO    [0m LoginPage:SeleniumDriver.py:72 Sent data on element with locator: Email locatorType: id
+[32mINFO    [0m LoginPage:SeleniumDriver.py:43 Element Found by locator Password
+[32mINFO    [0m LoginPage:SeleniumDriver.py:72 Sent data on element with locator: Password locatorType: id
+[32mINFO    [0m LoginPage:SeleniumDriver.py:43 Element Found by locator //input[@class ='button-1 login-button']
+[32mINFO    [0m LoginPage:SeleniumDriver.py:52 Clicked on element with locator: //input[@class ='button-1 login-button'] locatorType: xpath

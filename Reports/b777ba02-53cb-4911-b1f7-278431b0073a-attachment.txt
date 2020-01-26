@@ -1,0 +1,14 @@
+[32mINFO    [0m Payment:SeleniumDriver.py:109 Waiting for maximum :: 10 :: seconds for element to be clickable
+[32mINFO    [0m Payment:SeleniumDriver.py:118 Element not appeared on the web page
+[32mINFO    [0m Payment:SeleniumDriver.py:43 Element Found by locator paymentmethod_1
+[32mINFO    [0m Payment:SeleniumDriver.py:52 Clicked on element with locator: paymentmethod_1 locatorType: id
+[32mINFO    [0m Payment:SeleniumDriver.py:43 Element Found by locator //input[@type='button'][@class='button-1 payment-method-next-step-button']
+[32mINFO    [0m Payment:SeleniumDriver.py:52 Clicked on element with locator: //input[@type='button'][@class='button-1 payment-method-next-step-button'] locatorType: xpath
+[32mINFO    [0m Payment:SeleniumDriver.py:43 Element Found by locator CardholderName
+[32mINFO    [0m Payment:SeleniumDriver.py:72 Sent data on element with locator: CardholderName locatorType: id
+[32mINFO    [0m Payment:SeleniumDriver.py:43 Element Found by locator //input[@id='CardNumber']
+[32mINFO    [0m Payment:SeleniumDriver.py:72 Sent data on element with locator: //input[@id='CardNumber'] locatorType: xpath
+[32mINFO    [0m Payment:SeleniumDriver.py:43 Element Found by locator //input[@id='CardCode']
+[32mINFO    [0m Payment:SeleniumDriver.py:72 Sent data on element with locator: //input[@id='CardCode'] locatorType: xpath
+[32mINFO    [0m Payment:SeleniumDriver.py:43 Element Found by locator //input[@class='button-1 payment-info-next-step-button']
+[32mINFO    [0m Payment:SeleniumDriver.py:52 Clicked on element with locator: //input[@class='button-1 payment-info-next-step-button'] locatorType: xpath

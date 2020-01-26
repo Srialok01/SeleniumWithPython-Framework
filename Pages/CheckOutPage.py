@@ -1,18 +1,20 @@
-import time
+import logging
+from Logger import custom_logger as cl
+from Util.SeleniumDriver import SeleniumDriver
 
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
 
+class CheckOut(SeleniumDriver):
+    log = cl.customLogger(logging.DEBUG)
 
-class CheckOut():
     def __init__(self, driver):
+        super().__init__(driver)
         self.driver = driver
 
-    Terms_And_conditions = (By.ID, "termsofservice")
-    CheckoutBTN = (By.ID, "checkout")
-
+    _terms_And_conditions_id = "termsofservice"
+    _checkoutBTN_id = "checkout"
 
     def Check_out(self):
         self.driver.execute_script("window.scrollTo(0, 400);")
-        WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*CheckOut.Terms_And_conditions)).click()
-        self.driver.find_element(*CheckOut.CheckoutBTN).click()
+        self.waitForElement(self._terms_And_conditions_id, locatorType='id')
+        self.elementClick(self._terms_And_conditions_id, locatorType='id')
+        self.elementClick(self._checkoutBTN_id, locatorType='id')

@@ -1,0 +1,6 @@
+[32mINFO    [0m CheckOut:SeleniumDriver.py:109 Waiting for maximum :: 10 :: seconds for element to be clickable
+[32mINFO    [0m CheckOut:SeleniumDriver.py:118 Element not appeared on the web page
+[32mINFO    [0m CheckOut:SeleniumDriver.py:43 Element Found by locator termsofservice
+[32mINFO    [0m CheckOut:SeleniumDriver.py:52 Clicked on element with locator: termsofservice locatorType: id
+[32mINFO    [0m CheckOut:SeleniumDriver.py:43 Element Found by locator checkout
+[32mINFO    [0m CheckOut:SeleniumDriver.py:52 Clicked on element with locator: checkout locatorType: id

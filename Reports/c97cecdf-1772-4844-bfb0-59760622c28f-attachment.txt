@@ -1,0 +1,4 @@
+[32mINFO    [0m Address:SeleniumDriver.py:43 Element Found by locator //div[@id='billing-buttons-container']//input
+[32mINFO    [0m Address:SeleniumDriver.py:52 Clicked on element with locator: //div[@id='billing-buttons-container']//input locatorType: xpath
+[32mINFO    [0m Address:SeleniumDriver.py:43 Element Found by locator //input[@class='button-1 shipping-method-next-step-button']
+[32mINFO    [0m Address:SeleniumDriver.py:52 Clicked on element with locator: //input[@class='button-1 shipping-method-next-step-button'] locatorType: xpath

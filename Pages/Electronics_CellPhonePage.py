@@ -1,28 +1,47 @@
+import time
+
 from selenium.webdriver import ActionChains
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
+import logging
+from Logger import custom_logger as cl
+from Util.SeleniumDriver import SeleniumDriver
 
 
-class CellPhonePage():
+class CellPhonePage(SeleniumDriver):
+    log = cl.customLogger(logging.DEBUG)
+
     def __init__(self, driver):
+        super().__init__(driver)
         self.driver = driver
 
-    NokiaPhone = (By.LINK_TEXT, "Nokia Lumia 1020")
-    AddToCartBTN = (By.XPATH, "//input[@type='button'][@id='add-to-cart-button-20']")
-    ShoppingCart = (By.XPATH, "//div[@class='header-links']//descendant::span[@class ='cart-label']")
-    ShoppingCart_Confirmation = (By.XPATH, "//div[@id='bar-notification']//span")
-    GoToCart = (By.XPATH, "//div[@class='buttons']/input[@value='Go to cart']")
+    _NokiaPhone_id_Linktxt = "Nokia Lumia 1020"
+    _AddToCartBTN_xpath = "//input[@type='button'][@id='add-to-cart-button-20']"
+    _ShoppingCart_xpath = "//div[@class='header-links']//descendant::span[@class ='cart-label']"
+    _ShoppingCart_Confirmation_xpath = "//div[@id='bar-notification']//span"
+    _GoToCart_xpath = "//div[@class='buttons']/input[@value='Go to cart']"
+
+    def clickOnNokiaPhone(self):
+        self.waitForElement(self._NokiaPhone_id_Linktxt, locatorType='link')
+        self.elementClick(self._NokiaPhone_id_Linktxt, locatorType='link')
+
+    def clickOnAddtoCartBTN(self):
+        self.waitForElement(self._AddToCartBTN_xpath, locatorType='xpath')
+        self.elementClick(self._AddToCartBTN_xpath, locatorType='xpath')
+
+    def clickOnShoppingCartConfirmationBTN(self):
+        self.waitForElement(self._ShoppingCart_Confirmation_xpath, locatorType='xpath')
+        self.elementClick(self._ShoppingCart_Confirmation_xpath, locatorType='xpath')
+
+    def clickOnGoToCartBTN(self):
+        self.elementClick(self._GoToCart_xpath, locatorType='xpath')
 
     def SelectPhone(self):
-        WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*CellPhonePage.NokiaPhone)).click()
+        self.clickOnNokiaPhone()
         self.driver.execute_script("window.scrollTo(0, 300);")
-        WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*CellPhonePage.AddToCartBTN)).click()
-        WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*CellPhonePage.ShoppingCart_Confirmation)).click()
-        self.driver.execute_script("window.scrollTo(0, -300);")
-        self.Hover()
+        self.clickOnAddtoCartBTN()
+        self.clickOnShoppingCartConfirmationBTN()
+        self.driver.execute_script("window.scrollTo(0, -400);")
+        time.sleep(2)
+        self.hoverOnElement(self._ShoppingCart_xpath, locatorType='xpath')
+        self.clickOnGoToCartBTN()
 
-    def Hover(self):
-        hoverElement = WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*CellPhonePage.ShoppingCart))
-        hover = ActionChains(self.driver)
-        hover.move_to_element(hoverElement).perform()
-        self.driver.find_element(*CellPhonePage.GoToCart).click()

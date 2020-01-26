@@ -1,0 +1,4 @@
+[32mINFO    [0m HomePage:SeleniumDriver.py:43 Element Found by locator //ul[@class='top-menu notmobile']//a[contains(text(),'Electronics ')]
+[32mINFO    [0m HomePage:SeleniumDriver.py:62 successfully performed hover with locator: //ul[@class='top-menu notmobile']//a[contains(text(),'Electronics ')] locatorType: xpath
+[32mINFO    [0m HomePage:SeleniumDriver.py:43 Element Found by locator //ul[@class='top-menu notmobile']//a[contains(text(),'Others')]
+[32mINFO    [0m HomePage:SeleniumDriver.py:52 Clicked on element with locator: //ul[@class='top-menu notmobile']//a[contains(text(),'Others')] locatorType: xpath
